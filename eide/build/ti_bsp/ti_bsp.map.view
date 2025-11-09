@@ -1,0 +1,6 @@
+tool: AC6
+fileName: 'ti_bsp.map'
+elfName: 'ti_bsp.axf'
+compilerName: 'ARMCLANG 6'
+compilerFullName: 'ARMCLANG 6'
+compilerPath: 'D:\Keil_v5\ARM\ARMCLANG\bin\armclang.exe'

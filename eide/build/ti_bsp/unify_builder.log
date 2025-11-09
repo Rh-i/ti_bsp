@@ -1,0 +1,34 @@
+[2025-11-09 16:04:43]	[info] incremental build: 5 source files changed
+These source files will be recompiled
+---
+'d:\Users\admin\Desktop\work\TI\TI_BSP\core\empty.c': object (.o) file not exist
+'d:\Users\admin\Desktop\work\TI\TI_BSP\core\ti_msp_dl_config.c': object (.o) file not exist
+'d:\Users\admin\Desktop\work\TI\TI_BSP\keil\startup_mspm0g350x_uvision.s': object (.o) file not exist
+'d:\Users\admin\Desktop\work\TI\TI_BSP\user\app\app_main.c': object (.o) file not exist
+'d:\Users\admin\Desktop\work\TI\TI_BSP\user\bsp\bsp_systick.c': object (.o) file not exist
+
+[2025-11-09 16:04:44]	[done]
+	build successfully !
+
+[2025-11-09 16:20:04]	[info] incremental build: 5 source files changed
+These source files will be recompiled
+---
+'d:\Users\admin\Desktop\work\TI\ti_bsp\core\empty.c': source file has been changed.
+'d:\Users\admin\Desktop\work\TI\ti_bsp\core\ti_msp_dl_config.c': compiler options has been changed.
+'d:\Users\admin\Desktop\work\TI\ti_bsp\keil\startup_mspm0g350x_uvision.s': compiler options has been changed.
+'d:\Users\admin\Desktop\work\TI\ti_bsp\user\app\app_main.c': compiler options has been changed.
+'d:\Users\admin\Desktop\work\TI\ti_bsp\user\bsp\bsp_systick.c': compiler options has been changed.
+
+[2025-11-09 16:20:05]	[done]
+	build successfully !
+
+[2025-11-09 16:21:31]	[info] incremental build: 3 source files changed
+These source files will be recompiled
+---
+'d:\Users\admin\Desktop\work\TI\ti_bsp\core\empty.c': source file has been changed.
+'d:\Users\admin\Desktop\work\TI\ti_bsp\core\ti_msp_dl_config.c': source file has been changed.
+'d:\Users\admin\Desktop\work\TI\ti_bsp\user\app\app_main.c': dependence 'd:\Users\admin\Desktop\work\TI\ti_bsp\eide\..\core\ti_msp_dl_config.h' has been changed.
+
+[2025-11-09 16:21:32]	[done]
+	build successfully !
+

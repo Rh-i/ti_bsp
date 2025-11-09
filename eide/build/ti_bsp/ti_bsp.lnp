@@ -1,0 +1,7 @@
+--cpu Cortex-M0+ --scatter d:/Users/admin/Desktop/work/TI/ti_bsp/keil/mspm0g3507.sct ../source/ti/driverlib/lib/keil/m0p/mspm0g1x0x_g3x0x/driverlib.a --strict --summary_stderr --info summarysizes --map --xref --callgraph --symbols --info sizes --info totals --info unused --info veneers
+--list ./build/ti_bsp/ti_bsp.map
+./build/ti_bsp/.obj/__/core/empty.o
+./build/ti_bsp/.obj/__/core/ti_msp_dl_config.o
+./build/ti_bsp/.obj/__/keil/startup_mspm0g350x_uvision.o
+./build/ti_bsp/.obj/__/user/app/app_main.o
+./build/ti_bsp/.obj/__/user/bsp/bsp_systick.o -o ./build/ti_bsp/ti_bsp.axf

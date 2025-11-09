@@ -1,0 +1,6 @@
+r
+halt
+loadfile "d:\Users\admin\Desktop\work\TI\ti_bsp\eide\build\ti_bsp\ti_bsp.hex"
+r
+go
+exit

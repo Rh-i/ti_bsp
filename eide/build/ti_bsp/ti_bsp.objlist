@@ -1,0 +1,5 @@
+./build/ti_bsp/.obj/__/core/empty.o
+./build/ti_bsp/.obj/__/core/ti_msp_dl_config.o
+./build/ti_bsp/.obj/__/keil/startup_mspm0g350x_uvision.o
+./build/ti_bsp/.obj/__/user/app/app_main.o
+./build/ti_bsp/.obj/__/user/bsp/bsp_systick.o

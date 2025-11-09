@@ -1,0 +1,103 @@
+{
+    "name": "ti_bsp",
+    "target": "ti_bsp",
+    "toolchain": "AC6",
+    "toolchainLocation": "D:\\Keil_v5\\ARM\\ARMCLANG",
+    "toolchainCfgFile": "c:\\Users\\admin\\.vscode\\extensions\\cl.eide-3.26.1\\res\\data\\models/arm.v6.model.json",
+    "buildMode": "fast|multhread",
+    "showRepathOnLog": true,
+    "threadNum": 32,
+    "rootDir": "d:\\Users\\admin\\Desktop\\work\\TI\\ti_bsp\\eide",
+    "dumpPath": "build\\ti_bsp",
+    "outDir": "build\\ti_bsp",
+    "incDirs": [
+        ".",
+        "../source/third_party/CMSIS/Core/Include",
+        "../source",
+        ".cmsis/include",
+        "../keil/RTE/_empty_LP_MSPM0G3507_nortos_keil",
+        "../core",
+        "../user/app",
+        "../user/bsp",
+        "../user/mid"
+    ],
+    "libDirs": [],
+    "defines": [
+        "__MSPM0G3507__"
+    ],
+    "sourceList": [
+        "../core/empty.c",
+        "../core/ti_msp_dl_config.c",
+        "../keil/startup_mspm0g350x_uvision.s",
+        "../user/app/app_main.c",
+        "../user/bsp/bsp_systick.c"
+    ],
+    "alwaysInBuildSources": [],
+    "sourceParams": {},
+    "options": {
+        "version": 3,
+        "afterBuildTasks": [
+            {
+                "name": "axf to elf",
+                "command": "axf2elf -d \"${ToolchainRoot}\" -i \"${OutDir}/${ProjectName}.axf\" -o \"${OutDir}/${ProjectName}.elf\" > \"${OutDir}/axf2elf.log\""
+            }
+        ],
+        "asm-compiler": {
+            "$use": "asm-auto"
+        },
+        "beforeBuildTasks": [],
+        "c/cpp-compiler": {
+            "language-c": "c99",
+            "language-cpp": "c++11",
+            "one-elf-section-per-function": true,
+            "optimization": "level-0",
+            "short-enums#wchar": true,
+            "warnings": "misra-compatible"
+        },
+        "global": {
+            "output-debug-info": "enable",
+            "microcontroller-cpu": "cortex-m0+",
+            "microcontroller-fpu": "cortex-m0+",
+            "microcontroller-float": "cortex-m0+",
+            "$arch-extensions": "",
+            "$clang-arch-extensions": "",
+            "$armlink-arch-extensions": ""
+        },
+        "linker": {
+            "$outputTaskExcludes": [
+                ".bin"
+            ],
+            "misc-controls": "../source/ti/driverlib/lib/keil/m0p/mspm0g1x0x_g3x0x/driverlib.a",
+            "output-format": "elf",
+            "link-scatter": [
+                "d:/Users/admin/Desktop/work/TI/ti_bsp/keil/mspm0g3507.sct"
+            ]
+        }
+    },
+    "env": {
+        "KEIL_OUTPUT_DIR": "Objects",
+        "workspaceFolder": "d:\\Users\\admin\\Desktop\\work\\TI\\ti_bsp\\eide",
+        "workspaceFolderBasename": "eide",
+        "OutDir": "d:\\Users\\admin\\Desktop\\work\\TI\\ti_bsp\\eide\\build\\ti_bsp",
+        "OutDirRoot": "build",
+        "OutDirBase": "build\\ti_bsp",
+        "ProjectName": "ti_bsp",
+        "ConfigName": "ti_bsp",
+        "ProjectRoot": "d:\\Users\\admin\\Desktop\\work\\TI\\ti_bsp\\eide",
+        "ExecutableName": "d:\\Users\\admin\\Desktop\\work\\TI\\ti_bsp\\eide\\build\\ti_bsp\\ti_bsp",
+        "ChipPackDir": ".pack/TexasInstruments/MSPM0G1X0X_G3X0X_DFP.1.3.1",
+        "ChipName": "MSPM0G3507",
+        "SYS_Platform": "win32",
+        "SYS_DirSep": "\\",
+        "SYS_DirSeparator": "\\",
+        "SYS_PathSep": ";",
+        "SYS_PathSeparator": ";",
+        "SYS_EOL": "\r\n",
+        "EIDE_BUILDER_DIR": "c:\\Users\\admin\\.vscode\\extensions\\cl.eide-3.26.1\\res\\tools\\win32\\unify_builder",
+        "EIDE_BINARIES_VER": "12.1.1",
+        "EIDE_MSYS": "C:\\Users\\admin\\.eide\\bin\\builder\\msys\\bin",
+        "EIDE_PY3_CMD": "C:\\Users\\admin\\.eide\\bin\\python36\\python3.exe",
+        "ToolchainRoot": "D:\\Keil_v5\\ARM\\ARMCLANG"
+    },
+    "sysPaths": []
+}
