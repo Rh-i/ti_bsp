@@ -1,3 +1,3 @@
-arm-none-eabi-objcopy --update-section ER_IROM1="C:\Users\admin\AppData\Local\Temp\\ti_bsp_GW7uL++H.bin" "d:\Users\admin\Desktop\work\TI\ti_bsp\eide\build\ti_bsp/ti_bsp.axf" "d:\Users\admin\Desktop\work\TI\ti_bsp\eide\build\ti_bsp/ti_bsp.elf"
+arm-none-eabi-objcopy --update-section ER_IROM1="C:\Users\admin\AppData\Local\Temp\\ti_bsp_4q+KIPvu.bin" "d:\Users\admin\Desktop\work\TI\ti_bsp\eide\build\ti_bsp/ti_bsp.axf" "d:\Users\admin\Desktop\work\TI\ti_bsp\eide\build\ti_bsp/ti_bsp.elf"
 
 

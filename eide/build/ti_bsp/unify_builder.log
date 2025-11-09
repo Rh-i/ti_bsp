@@ -32,3 +32,15 @@ These source files will be recompiled
 [2025-11-09 16:21:32]	[done]
 	build successfully !
 
+[2025-11-09 16:23:14]	[info] incremental build: 5 source files changed
+These source files will be recompiled
+---
+'d:\Users\admin\Desktop\work\TI\ti_bsp\core\empty.c': object (.o) file not exist
+'d:\Users\admin\Desktop\work\TI\ti_bsp\core\ti_msp_dl_config.c': object (.o) file not exist
+'d:\Users\admin\Desktop\work\TI\ti_bsp\keil\startup_mspm0g350x_uvision.s': object (.o) file not exist
+'d:\Users\admin\Desktop\work\TI\ti_bsp\user\app\app_main.c': object (.o) file not exist
+'d:\Users\admin\Desktop\work\TI\ti_bsp\user\bsp\bsp_systick.c': object (.o) file not exist
+
+[2025-11-09 16:23:16]	[done]
+	build successfully !
+
