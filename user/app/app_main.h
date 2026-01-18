@@ -27,9 +27,9 @@ extern uint64_t count;
 static inline void app_while()
 {
     DL_GPIO_clearPins(GPIO_OTHER_PORT, GPIO_OTHER_PIN_B22_PIN); // 输出低电平
-    delay_ms(1000);
+    delay_ms(100);
     DL_GPIO_setPins(GPIO_OTHER_PORT, GPIO_OTHER_PIN_B22_PIN); // 输出高电平
-    delay_ms(1000);
+    delay_ms(100);
 
     count++;
 }

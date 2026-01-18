@@ -44,3 +44,38 @@ These source files will be recompiled
 [2025-11-09 16:23:16]	[done]
 	build successfully !
 
+[2025-11-14 06:12:07]	[info] incremental build: 5 source files changed
+These source files will be recompiled
+---
+'d:\Users\admin\Desktop\work\TI\ti_bsp\core\empty.c': object (.o) file not exist
+'d:\Users\admin\Desktop\work\TI\ti_bsp\core\ti_msp_dl_config.c': object (.o) file not exist
+'d:\Users\admin\Desktop\work\TI\ti_bsp\keil\startup_mspm0g350x_uvision.s': object (.o) file not exist
+'d:\Users\admin\Desktop\work\TI\ti_bsp\user\app\app_main.c': object (.o) file not exist
+'d:\Users\admin\Desktop\work\TI\ti_bsp\user\bsp\bsp_systick.c': object (.o) file not exist
+
+[2025-11-14 06:12:09]	[done]
+	build successfully !
+
+[2025-11-14 14:03:45]	[done]
+	build successfully !
+
+[2025-11-14 14:04:18]	[info] incremental build: 2 source files changed
+These source files will be recompiled
+---
+'d:\Users\admin\Desktop\work\TI\ti_bsp\core\empty.c': dependence 'd:\Users\admin\Desktop\work\TI\ti_bsp\eide\..\user\app\app_main.h' has been changed.
+'d:\Users\admin\Desktop\work\TI\ti_bsp\user\app\app_main.c': dependence 'd:\Users\admin\Desktop\work\TI\ti_bsp\eide\..\user\app\app_main.h' has been changed.
+
+[2025-11-14 14:04:19]	[done]
+	build successfully !
+
+[2026-01-18 19:55:48]	[info] incremental build: 4 source files changed
+These source files will be recompiled
+---
+'d:\Users\admin\Desktop\work\TI\ti_bsp\core\empty.c': source file has been changed.
+'d:\Users\admin\Desktop\work\TI\ti_bsp\core\ti_msp_dl_config.c': source file has been changed.
+'d:\Users\admin\Desktop\work\TI\ti_bsp\user\app\app_main.c': dependence 'd:\Users\admin\Desktop\work\TI\ti_bsp\eide\..\user\app\app_main.h' has been changed.
+'d:\Users\admin\Desktop\work\TI\ti_bsp\user\bsp\bsp_systick.c': source file has been changed.
+
+[2026-01-18 19:55:50]	[done]
+	build successfully !
+

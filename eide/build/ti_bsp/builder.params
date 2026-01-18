@@ -30,7 +30,8 @@
         "../core/ti_msp_dl_config.c",
         "../keil/startup_mspm0g350x_uvision.s",
         "../user/app/app_main.c",
-        "../user/bsp/bsp_systick.c"
+        "../user/bsp/bsp_systick.c",
+        "../user/bsp/hw_encoder.c"
     ],
     "alwaysInBuildSources": [],
     "sourceParams": {},
